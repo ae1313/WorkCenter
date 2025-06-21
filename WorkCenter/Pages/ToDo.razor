@@ -1,0 +1,11 @@
+@page "/todo"
+<h1 class="todo"> To-Do</h1>
+<ul class="to-list">
+    @foreach (var todo in _todos)
+    {
+        
+    }
+</ul>
+@code {
+    private List<TodoItem> _todos = [];
+}
